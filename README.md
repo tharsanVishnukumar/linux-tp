@@ -16,7 +16,7 @@ Ce dépôt contient l'ensemble des comptes rendus de Travaux Pratiques pour le m
 
 ## Liste des Comptes Rendus
 
-| TP | Sujet | Lien vers le rapport
+| TP | Sujet | Lien vers le rapport |
 | :---: | :--- | :---: | :---: |
 | **01** | Installation Serveurs | [📄 Consulter le TP1](./TP1.md)
 
