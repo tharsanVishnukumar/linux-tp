@@ -20,7 +20,7 @@ Conformément aux consignes, j'ai réalisé un partitionnement manuel avec une t
 * **Logs (`/var/log`)** : 1 Go, ext4.
 * **Swap** : Reste de l'espace disque.
 
-<img width="839" height="626" alt="2026-01-27-203639_hyprshot" src="[https://github.com/user-attachments/assets/cbc51679-9604-4cb4-8a4e-e6f5642af9be](https://github.com/user-attachments/assets/cbc51679-9604-4cb4-8a4e-e6f5642af9be)" />
+<img width="839" height="626" alt="2026-01-27-203639_hyprshot" src="https://github.com/user-attachments/assets/cbc51679-9604-4cb4-8a4e-e6f5642af9be" />
 
 ### 1.3 Choix des paquets
 
@@ -29,7 +29,7 @@ Lors de la sélection des logiciels :
 * J'ai décoché l'environnement de bureau et le serveur SSH.
 * J'ai conservé uniquement "Utilitaires usuels du système" (Standard system utilities).
 
-<img width="841" height="643" alt="2026-01-27-204426_hyprshot" src="[https://github.com/user-attachments/assets/476fe820-78d3-4f99-8d08-a5498d33e2ca](https://github.com/user-attachments/assets/476fe820-78d3-4f99-8d08-a5498d33e2ca)" />
+<img width="841" height="643" alt="2026-01-27-204426_hyprshot" src="https://github.com/user-attachments/assets/476fe820-78d3-4f99-8d08-a5498d33e2ca" />
 
 ---
 
@@ -48,7 +48,7 @@ dpkg -l | wc -l
 
 **Résultat attendu :** Environ 302 paquets. J'en ai obtenu 258, sûrement à cause de la version plus récente de l'image ISO.
 
-<img width="384" height="107" alt="2026-01-27-204815_hyprshot" src="[https://github.com/user-attachments/assets/4d810090-50d3-4e96-b32d-5ca07b18ca51](https://github.com/user-attachments/assets/4d810090-50d3-4e96-b32d-5ca07b18ca51)" />
+<img width="384" height="107" alt="2026-01-27-204815_hyprshot" src="https://github.com/user-attachments/assets/4d810090-50d3-4e96-b32d-5ca07b18ca51" />
 
 ### 2.2 Configuration SSH
 
@@ -62,7 +62,7 @@ apt install openssh-server
 
 ```
 
-<img width="958" height="267" alt="image" src="[https://github.com/user-attachments/assets/679a27d1-83e4-4a8a-8453-719ea1350d2b](https://github.com/user-attachments/assets/679a27d1-83e4-4a8a-8453-719ea1350d2b)" />
+<img width="958" height="267" alt="image" src="https://github.com/user-attachments/assets/679a27d1-83e4-4a8a-8453-719ea1350d2b" />
 
 Modification de la configuration pour autoriser le root :
 
@@ -72,7 +72,7 @@ vi /etc/ssh/sshd_config
 ```
 
 *Modification de la ligne `PermitRootLogin` à `yes`.*
-<img width="316" height="136" alt="image" src="[https://github.com/user-attachments/assets/b5560f52-5148-492a-9598-be2b1c9669b3](https://github.com/user-attachments/assets/b5560f52-5148-492a-9598-be2b1c9669b3)" />
+<img width="316" height="136" alt="image" src="https://github.com/user-attachments/assets/b5560f52-5148-492a-9598-be2b1c9669b3" />
 
 Redémarrage du service :
 
@@ -81,13 +81,13 @@ systemctl restart ssh
 
 ```
 
-<img width="836" height="336" alt="image" src="[https://github.com/user-attachments/assets/ea729e94-e715-4be9-b955-14227a63a514](https://github.com/user-attachments/assets/ea729e94-e715-4be9-b955-14227a63a514)" />
+<img width="836" height="336" alt="image" src="https://github.com/user-attachments/assets/ea729e94-e715-4be9-b955-14227a63a514" />
 
 ### 2.3 Connexion à distance
 
 J'ai configuré ma VM en accès par pont (Bridge).
 
-<img width="1662" height="312" alt="image" src="[https://github.com/user-attachments/assets/73ecb6d4-cb53-471a-9bf3-208976971e7c](https://github.com/user-attachments/assets/73ecb6d4-cb53-471a-9bf3-208976971e7c)" />
+<img width="1662" height="312" alt="image" src="https://github.com/user-attachments/assets/73ecb6d4-cb53-471a-9bf3-208976971e7c" />
 
 J'ai exécuté la commande suivante pour récupérer l'IP de ma machine :
 
@@ -96,11 +96,11 @@ ip a
 
 ```
 
-<img width="888" height="515" alt="image" src="[https://github.com/user-attachments/assets/06b10437-163a-4456-ad30-4f01f9db5184](https://github.com/user-attachments/assets/06b10437-163a-4456-ad30-4f01f9db5184)" />
+<img width="888" height="515" alt="image" src="https://github.com/user-attachments/assets/06b10437-163a-4456-ad30-4f01f9db5184" />
 
 Je me suis connecté à la VM avec son IP depuis ma machine hôte.
 
-<img width="892" height="350" alt="image" src="[https://github.com/user-attachments/assets/c44c037e-18f6-489a-9b59-118c81c3c0bb](https://github.com/user-attachments/assets/c44c037e-18f6-489a-9b59-118c81c3c0bb)" />
+<img width="892" height="350" alt="image" src="https://github.com/user-attachments/assets/c44c037e-18f6-489a-9b59-118c81c3c0bb" />
 
 ### 2.4 Espace Disque
 
@@ -113,7 +113,7 @@ df -h
 
 ```
 
-<img width="778" height="255" alt="image" src="[https://github.com/user-attachments/assets/ae54e52f-13e4-485b-abf5-c22eb901ec12](https://github.com/user-attachments/assets/ae54e52f-13e4-485b-abf5-c22eb901ec12)" />
+<img width="778" height="255" alt="image" src="https://github.com/user-attachments/assets/ae54e52f-13e4-485b-abf5-c22eb901ec12" />
 
 ### 2.5 Explication des commandes et résultats
 
@@ -121,20 +121,20 @@ Voici les détails des commandes demandées dans la section 2.5 du sujet :
 
 #### Locales
 
-<img width="408" height="46" alt="image" src="[https://github.com/user-attachments/assets/e1776c49-2eac-4198-ab7a-258ad91f8e46](https://github.com/user-attachments/assets/e1776c49-2eac-4198-ab7a-258ad91f8e46)" />
+<img width="408" height="46" alt="image" src="https://github.com/user-attachments/assets/e1776c49-2eac-4198-ab7a-258ad91f8e46" />
 
 Cette commande affiche la variable d'environnement qui définit la langue et le jeu de caractères (encodage) utilisés par le système.
 
 #### Nom de la machine et domaine
 
-<img width="388" height="92" alt="image" src="[https://github.com/user-attachments/assets/9a0f6c67-e20f-4527-a794-eefc5ebcbd07](https://github.com/user-attachments/assets/9a0f6c67-e20f-4527-a794-eefc5ebcbd07)" />
+<img width="388" height="92" alt="image" src="https://github.com/user-attachments/assets/9a0f6c67-e20f-4527-a794-eefc5ebcbd07" />
 
 * `hostname` : Affiche le nom d'hôte du système (défini comme `serveur1` lors de l'installation).
 * `hostname -d` : Affiche le nom de domaine DNS de la machine (défini comme `ufr-info-p6.jussieu.fr`).
 
 #### Vérification des dépôts
 
-<img width="673" height="92" alt="image" src="[https://github.com/user-attachments/assets/358c42b0-4655-4b0f-accd-dd0ec2606585](https://github.com/user-attachments/assets/358c42b0-4655-4b0f-accd-dd0ec2606585)" />
+<img width="673" height="92" alt="image" src="https://github.com/user-attachments/assets/358c42b0-4655-4b0f-accd-dd0ec2606585" />
 
 Cette commande affiche le contenu du fichier de configuration des dépôts (`sources.list`), en excluant (`grep -v`) les lignes commentées (commençant par `#`) et les lignes vides (`^$`). Cela permet de voir uniquement les dépôts actifs.
 
