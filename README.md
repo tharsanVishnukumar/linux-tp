@@ -18,7 +18,7 @@ Ce dépôt contient l'ensemble des comptes rendus de Travaux Pratiques pour le m
 
 | TP | Sujet | Lien vers le rapport |
 | :---: | :--- | :---: |
-| **01** | Installation Serveurs | [📄 Consulter le TP1](./TP1.md) |
+| **01** | Installation Serveurs | [Consulter le TP1](./TP1.md) |
 
 ---
 *Enseignant : M. Le Cocq*
