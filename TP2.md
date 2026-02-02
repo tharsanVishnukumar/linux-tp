@@ -69,8 +69,6 @@ vim /root/.ssh/authorized_keys
 
 ```
 
-
-<img width="912" height="183" alt="image" src="https://github.com/user-attachments/assets/9c8fcce7-280c-4f21-bd53-08d867253a81" />
 3. Attribution des permissions strictes (nécessaires pour qu'OpenSSH accepte la clé) :
 ```bash
 chmod 700 /root/.ssh
