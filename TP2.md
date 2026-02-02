@@ -103,7 +103,8 @@ Pour sécuriser l'accès, j'ai désactivé l'authentification par mot de passe p
 * `PermitRootLogin prohibit-password` (ou `without-password`)
 * `PasswordAuthentication no`
 
-<img width="594" height="278" alt="image" src="https://github.com/user-attachments/assets/ceee8861-e8e0-49ac-a97b-a85b7df0bd8f" />
+<img width="476" height="137" alt="image" src="https://github.com/user-attachments/assets/e762aea9-b496-430f-96ca-9644a06bc782" />
+
 
 **Attaque Brute Force SSH :**
 Une attaque brute force consiste à tester automatiquement des milliers de combinaisons d'identifiants et de mots de passe pour deviner les accès.
