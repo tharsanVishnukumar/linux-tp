@@ -68,6 +68,8 @@ mkdir /root/.ssh
 vim /root/.ssh/authorized_keys
 
 ```
+<img width="1885" height="132" alt="image" src="https://github.com/user-attachments/assets/7200f1b8-d96d-4fba-a403-32b8326ca10e" />
+
 
 3. Attribution des permissions strictes (nécessaires pour qu'OpenSSH accepte la clé) :
 ```bash
