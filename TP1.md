@@ -233,5 +233,3 @@ Acquire::http::Proxy "http://proxy.ufr-info-p6.jussieu.fr:3128/";
 
 ```
 
-[TP2-2](TP2-2.md)
-
